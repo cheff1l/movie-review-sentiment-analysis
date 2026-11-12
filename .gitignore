@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data and large files (dataset should not be tracked by Git)
+data/
+*.csv
+*.tsv
+
+# Trained models and checkpoints
+models/*.keras
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.pkl
+*.keras
+*.h5
+*.pt
+*.pkl
+
+# Environments & secrets
+.env
+.env.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
